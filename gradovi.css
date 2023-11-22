@@ -1,0 +1,24 @@
+p { font-size: 22px;
+    font-weight: bold; }
+
+.s { font-weight: normal; }
+
+.ponudjeniGradovi { font-size: 22px; }
+
+button { height: 40px;
+         width: 150px;
+         font-size: 18px; }
+                
+#div1 { border: 1px solid darkblue;
+        margin-bottom: 10px;
+        padding: 15px;
+        background-color: #a5d6f2;
+        width: 300px;
+        height: auto; }
+
+#div2 { border: 1px solid red;
+        padding: 15px;
+        height: auto;
+        display: none;
+        background-color: #f0d2ab;
+        width: 300px; }
