@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="gradovi.js"></script>
+    <link rel="stylesheet" href="gradovi.css">
+</head>
+<body>
+    <div id="div1">
+        <button type="button" onclick="igraj()" id="btnOdaberiDdrzavu">Odaberi državu</button>
+        <p>Država: <span class="s" id="p1"></span></p>
+    </div>
+    <div id="div2">
+        <form>
+            <input type="radio" name="grad"> <span class="ponudjeniGradovi"></span><br><br>
+            <input type="radio" name="grad"> <span class="ponudjeniGradovi"></span><br><br>
+            <input type="radio" name="grad"> <span class="ponudjeniGradovi"></span><br><br>
+            <button type="button" onclick="potvrdi()" id="btnPotvrdi">Potvrdi</button>
+        </form>
+        <p>Broj pogodaka: <span class="s" id="pogodak"></span></p>
+        <p>Broj promašaja: <span class="s" id="promasaj"></span></p>
+    </div>
+</body>
+</html>
